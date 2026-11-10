@@ -1,0 +1,9 @@
+department_id,department_name,cost_center
+DEPT-001,Engineering,CC-0001
+DEPT-002,Human Resources,CC-0002
+DEPT-003,Finance,CC-0003
+DEPT-004,Sales,CC-0004
+DEPT-005,Marketing,CC-0005
+DEPT-006,Operations,CC-0006
+DEPT-007,Customer Success,CC-0007
+DEPT-008,Security,CC-0008

@@ -1,0 +1,30 @@
+[
+  {
+    "issue_id": "ANOM-001",
+    "issue_type": "ACCESS_BEFORE_APPROVAL_OR_START",
+    "entity_type": "AccessGrant",
+    "entity_id": "GRANT-EMP-000001-001",
+    "expected_detection": "Grant is active without approval timestamp or before employee start date"
+  },
+  {
+    "issue_id": "ANOM-002",
+    "issue_type": "DUPLICATE_ACTIVE_ASSET_ASSIGNMENT",
+    "entity_type": "Asset",
+    "entity_id": "AST-000001",
+    "expected_detection": "One asset has multiple active assignments"
+  },
+  {
+    "issue_id": "ANOM-004",
+    "issue_type": "TASK_DEPENDENCY_CYCLE",
+    "entity_type": "Dependency",
+    "entity_id": "DEP-99999999",
+    "expected_detection": "Directed task dependency graph contains a cycle"
+  },
+  {
+    "issue_id": "ANOM-005",
+    "issue_type": "RECOVERED_ASSET_STILL_ASSIGNED",
+    "entity_type": "Asset",
+    "entity_id": "AST-000002",
+    "expected_detection": "Asset has returned assignment but current asset status remains ASSIGNED"
+  }
+]

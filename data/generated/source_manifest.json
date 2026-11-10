@@ -1,0 +1,29 @@
+{
+  "project": "LifeCycleIQ",
+  "seed": 20261022,
+  "generated_at_utc": "2026-11-10T12:00:00+00:00",
+  "counts": {
+    "employees": 1000,
+    "tasks": 8000,
+    "access_grants": 1501,
+    "assets": 1200,
+    "anomaly_labels": 5
+  },
+  "tables": [
+    "Department",
+    "Role",
+    "Manager",
+    "Employee",
+    "OnboardingCase",
+    "Task",
+    "Dependency",
+    "AccessRole",
+    "AccessGrant",
+    "Asset",
+    "AssetAssignment",
+    "OffboardingCase",
+    "AuditEvent",
+    "RoleHistory"
+  ],
+  "provenance": "Synthetic data generated locally; no external personal data."
+}

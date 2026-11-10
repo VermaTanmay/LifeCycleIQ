@@ -1,0 +1,5 @@
+issue_id,issue_type,entity_type,entity_id,expected_detection
+ANOM-001,ACCESS_BEFORE_APPROVAL_OR_START,AccessGrant,GRANT-EMP-000001-001,Grant is active without approval timestamp or before employee start date
+ANOM-002,DUPLICATE_ACTIVE_ASSET_ASSIGNMENT,Asset,AST-000001,One asset has multiple active assignments
+ANOM-004,TASK_DEPENDENCY_CYCLE,Dependency,DEP-99999999,Directed task dependency graph contains a cycle
+ANOM-005,RECOVERED_ASSET_STILL_ASSIGNED,Asset,AST-000002,Asset has returned assignment but current asset status remains ASSIGNED

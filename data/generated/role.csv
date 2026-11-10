@@ -1,0 +1,13 @@
+role_id,role_name,access_tier,is_active
+ROLE-001,Software Engineer,STANDARD,1
+ROLE-002,Senior Software Engineer,ELEVATED,1
+ROLE-003,Data Analyst,STANDARD,1
+ROLE-004,HR Associate,STANDARD,1
+ROLE-005,Finance Analyst,STANDARD,1
+ROLE-006,Sales Executive,STANDARD,1
+ROLE-007,IT Administrator,PRIVILEGED,1
+ROLE-008,Product Manager,ELEVATED,1
+ROLE-009,Security Engineer,PRIVILEGED,1
+ROLE-010,Support Specialist,STANDARD,1
+ROLE-011,DevOps Engineer,ELEVATED,1
+ROLE-012,Intern,STANDARD,1

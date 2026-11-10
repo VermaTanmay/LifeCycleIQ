@@ -1,0 +1,33 @@
+{
+  "integrity_pass": true,
+  "counts": {
+    "Employee": 1000,
+    "Role": 12,
+    "Department": 8,
+    "Manager": 40,
+    "OnboardingCase": 1000,
+    "Task": 8000,
+    "Dependency": 7001,
+    "AccessRole": 72,
+    "AccessGrant": 1501,
+    "Asset": 1200,
+    "AssetAssignment": 751,
+    "OffboardingCase": 21,
+    "AuditEvent": 1021,
+    "RoleHistory": 34
+  },
+  "checks": {
+    "foreign_key_violations": [],
+    "employee_duplicate_primary_keys": 0,
+    "task_duplicate_primary_keys": 0,
+    "accessgrant_duplicate_primary_keys": 0,
+    "asset_duplicate_primary_keys": 0,
+    "onboardingcase_duplicate_primary_keys": 0,
+    "invalid_employee_dates": 0,
+    "active_grants_for_terminated": 1,
+    "active_asset_assignment_conflicts": 1,
+    "recovered_assets_still_assigned": 1,
+    "task_dependency_cycle_candidates": 2
+  },
+  "note": "Lifecycle/anomaly checks are intentionally expected to be non-zero for labelled challenge scenarios. Compare with data/ground_truth/ground_truth.csv."
+}
